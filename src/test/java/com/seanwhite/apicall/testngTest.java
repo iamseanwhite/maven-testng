@@ -13,7 +13,7 @@ import java.net.URLConnection;
  * Created by iamseanwhite on 9/7/2016.
  * Uses TestNG to hit the public Weather Underground API
  * and see if the current temperature in a given location
- * is above a given threshold
+ * is of type double, and if it is within a reasonable range.
  */
 public class testngTest {
 
@@ -23,7 +23,8 @@ public class testngTest {
         String apiKey = "f61b08db479e20e7";
         String city = "Atlanta";
         String state =  "GA";
-        Double thresholdTemp = 80.0;
+        Double thresholdHigh = 110.0;
+        Double thresholdLow = -10.0;
 
         URL weather = new URL("http://api.wunderground.com/api/" + apiKey + "/conditions/q/" + state + "/" + city + ".json");
         URLConnection connection = weather.openConnection();
@@ -41,12 +42,14 @@ public class testngTest {
 
         String responseString = response.toString();
         JSONObject responseObject = new JSONObject(responseString);         //creates a new JSONObject with name/value mappings from the JSON string.
+
+        Assert.assertTrue(responseObject.getJSONObject("current_observation").get("temp_f").getClass() == Double.class, "temp_f is not of type Double");    //makes sure temp is of type double
+
         Double currentTemp = responseObject.getJSONObject("current_observation").getDouble("temp_f");
 
         System.out.println("\nCurrent temperature in " + city + ", " + state + " is " + currentTemp + "F");
 
-        Assert.assertTrue(currentTemp <= thresholdTemp, "Current temp is greater than " + thresholdTemp + "F");      //Fails when temp > 80
-
+        Assert.assertTrue(currentTemp <= thresholdHigh && currentTemp >= thresholdLow, "Current temp is not within range");      //fails when temp marginally exceeds current record low and high
     }
 
 }
