@@ -11,18 +11,4 @@
       <class name="com.seanwhite.apicall.testngTest"/>
     </classes>
   </test> <!-- exampletest1 -->
-  <test name="exampletest1(failed)">
-    <groups>
-      <run>
-        <include name="myOnlyGroup"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="com.seanwhite.apicall.testngTest">
-        <methods>
-          <include name="temperatureTest"/>
-        </methods>
-      </class> <!-- com.seanwhite.apicall.testngTest -->
-    </classes>
-  </test> <!-- exampletest1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

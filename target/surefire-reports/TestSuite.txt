@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.75 sec <<< FAILURE! - in TestSuite
-temperatureTest(com.seanwhite.apicall.testngTest)  Time elapsed: 0.356 sec  <<< FAILURE!
-java.lang.AssertionError: Current temp is greater than 10.0F expected [true] but found [false]
-	at com.seanwhite.apicall.testngTest.temperatureTest(testngTest.java:45)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.768 sec - in TestSuite
