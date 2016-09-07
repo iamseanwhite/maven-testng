@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.75" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_71\jre\bin"/>
+    <property name="java.vm.version" value="24.71-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/iamseanwhite/IdeaProjects/Api Call"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\iamseanwhite\IdeaProjects\Api Call"/>
+    <property name="java.runtime.version" value="1.7.0_71-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_71\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\IAMSEA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:/Program Files (x86)/apache-maven-3.3.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\iamseanwhite\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files (x86)\apache-maven-3.3.3\bin;C:\Program Files(x86)\Java\jdk1.7.0_71;C:\Program Files\Git\cmd;C:\Users\iamseanwhite\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Skype\Phone;C:\Users\iamseanwhite\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\iamseanwhite"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="iamseanwhite"/>
+    <property name="java.class.path" value="C:/Program Files (x86)/apache-maven-3.3.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.7.0_71\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_71"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.7.0_71\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_71\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_71\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_71\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_71\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_71\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_71\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.7.0_71\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\apache-maven-3.3.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="temperatureTest" classname="com.seanwhite.apicall.testngTest" time="0.356">
+    <failure message="Current temp is greater than 10.0F expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Current temp is greater than 10.0F expected [true] but found [false]
+	at com.seanwhite.apicall.testngTest.temperatureTest(testngTest.java:45)
+</failure>
+    <system-out><![CDATA[
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Atlanta, GA",
+		"city":"Atlanta",
+		"state":"GA",
+		"state_name":"Georgia",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"30301",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"33.85500717",
+		"longitude":"-84.39598846",
+		"elevation":"267.00000000"
+		},
+		"observation_location": {
+		"full":"Chastain, Atlanta, Georgia",
+		"city":"Chastain, Atlanta",
+		"state":"Georgia",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"33.870979",
+		"longitude":"-84.401497",
+		"elevation":"905 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KGAATLAN195",
+		"observation_time":"Last Updated on September 7, 4:38 PM EDT",
+		"observation_time_rfc822":"Wed, 07 Sep 2016 16:38:52 -0400",
+		"observation_epoch":"1473280732",
+		"local_time_rfc822":"Wed, 07 Sep 2016 16:39:07 -0400",
+		"local_epoch":"1473280747",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Clear",
+		"temperature_string":"95.2 F (35.1 C)",
+		"temp_f":95.2,
+		"temp_c":35.1,
+		"relative_humidity":"32%",
+		"wind_string":"Calm",
+		"wind_dir":"South",
+		"wind_degrees":182,
+		"wind_mph":0.0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1019",
+		"pressure_in":"30.10",
+		"pressure_trend":"-",
+		"dewpoint_string":"61 F (16 C)",
+		"dewpoint_f":61,
+		"dewpoint_c":16,
+		"heat_index_string":"95 F (35 C)",
+		"heat_index_f":95,
+		"heat_index_c":35,
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"95 F (35 C)",
+		"feelslike_f":"95",
+		"feelslike_c":"35",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"596",
+		"UV":"3.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/GA/Atlanta.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KGAATLAN195",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=33.870979,-84.401497",
+		"nowcast":""
+	}
+}
+
+Current temperature in Atlanta, GA is 95.2F
+]]></system-out>
+  </testcase>
+</testsuite>
